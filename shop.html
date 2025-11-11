@@ -6,79 +6,116 @@
     <title>Shop</title>
     <link rel="stylesheet" href="./styles/site.css" />
 </head>
-<body>
+<body class="page page--shop">
 <modular-menu
         data-links='[
         {"label":"Home","href":"./index.html"},
-        {"label":"About","href":"./aboutus.html"},
+        {"label":"About Us","href":"./aboutus.html"},
         {"label":"Contact","href":"./contact.html"},
         {"label":"Donate","href":"./donate.html"},
-        {"label":"Shop","href":"./shop.html"}
+        {"label":"Merch Store","href":"./shop.html"}
       ]'
 ></modular-menu>
-<main id="shop">
-    <h1>Shop</h1>
-    <p>
-        Check out our TeePublic Store Front below!<br>
-        Already have an existing order? Click <a href="https://www.teepublic.com/order/status">here</a>.
-    </p>
-    <h1><b>Apparel</b></h1>
-    <h2><b>Adult Apparel</b></h2>
-    <a href="https://www.teepublic.com/user/sudden-sentience/t-shirts">
-        <img src="shop_media/shirts_tmh.jpg" alt="Shirts" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/hoodie">
-        <img src="shop_media/hoodies_tmh.jpg" alt="Hoodies" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/long-sleeve-t-shirt">
-        <img src="shop_media/long-sleeve_tmh.jpg" alt="Long Sleeve Shirts" style="height:250px; width:250px"></a><br>
-    <a href="https://www.teepublic.com/user/sudden-sentience/crewneck-sweatshirt">
-        <img src="shop_media/crewneck_tmh.jpg" alt="Crewnecks" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/tank-top">
-        <img src="shop_media/tanktop_tmh.jpg" alt="Tank Tops" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/shorts">
-        <img src="shop_media/short_tmh.jpg" alt="Shorts" style="height:250px; width:250px"></a><br>
-    <a href="https://www.teepublic.com/user/sudden-sentience/baseball-t-shirt">
-        <img src="shop_media/baseball-tshirt_tmh.jpg" alt="Baseball T-Shirts" style="height:250px; width:250px"></a>
+<main id="shop" class="stack">
+    <section class="info-panel text-center">
+        <h1>Merch Store</h1>
+        <p>
+            Check out our TeePublic storefront below. Already have an existing order?
+            <a href="https://www.teepublic.com/order/status" target="_blank" rel="noopener noreferrer">Track it here</a>.
+        </p>
+    </section>
 
-    <h2><b>Accessories</b></h2>
-    <a href="https://www.teepublic.com/user/sudden-sentience/bags">
-        <img src="shop_media/bag_tmh.jpg" alt="Bags" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/hats">
-        <img src="shop_media/hats_tmh.jpg" alt="Hats" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/stickers">
-        <img src="shop_media/sticker_tmh.jpg" alt="Stickers" style="height:250px; width:250px"></a><br>
-    <a href="https://www.teepublic.com/user/sudden-sentience/magnets">
-        <img src="shop_media/magnet_tmh.jpg" alt="Magnets" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/phone-case">
-        <img src="shop_media/phone-case_tmh.jpg" alt="Phone Cases" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/pins">
-        <img src="shop_media/pin_tmh.jpg" alt="Pins" style="height:250px; width:250px"></a><br>
-    <a href="https://www.teepublic.com/user/sudden-sentience/totes">
-        <img src="shop_media/tote_tmh.jpg" alt="Totes" style="height:250px; width:250px"></a>
+    <section class="card">
+        <h2>Adult Apparel</h2>
+        <div class="shop-grid">
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/t-shirts" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/shirts_tmh.jpg" alt="Shirts" />
+                <span>Shirts</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/hoodie" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/hoodies_tmh.jpg" alt="Hoodies" />
+                <span>Hoodies</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/long-sleeve-t-shirt" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/long-sleeve_tmh.jpg" alt="Long Sleeve Shirts" />
+                <span>Long Sleeve</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/crewneck-sweatshirt" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/crewneck_tmh.jpg" alt="Crewnecks" />
+                <span>Crewnecks</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/tank-top" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/tanktop_tmh.jpg" alt="Tank Tops" />
+                <span>Tank Tops</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/shorts" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/short_tmh.jpg" alt="Shorts" />
+                <span>Shorts</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/baseball-t-shirt" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/baseball-tshirt_tmh.jpg" alt="Baseball T-Shirts" />
+                <span>Baseball Tees</span>
+            </a>
+        </div>
+    </section>
 
-    <h2><b>Home Goods</b></h2>
-    <a href="https://www.teepublic.com/user/sudden-sentience/mug">
-        <img src="shop_media/mugs_tmh.jpg" alt="Mugs" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/throw-pillows">
-        <img src="shop_media/pillow_tmh.jpg" alt="Pillows" style="height:250px; width:250px"></a>
+    <section class="card">
+        <h2>Accessories</h2>
+        <div class="shop-grid">
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/bags" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/bag_tmh.jpg" alt="Bags" />
+                <span>Bags</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/hats" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/hats_tmh.jpg" alt="Hats" />
+                <span>Hats</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/stickers" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/sticker_tmh.jpg" alt="Stickers" />
+                <span>Stickers</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/magnets" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/magnet_tmh.jpg" alt="Magnets" />
+                <span>Magnets</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/phone-case" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/phone-case_tmh.jpg" alt="Phone Cases" />
+                <span>Phone Cases</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/pins" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/pin_tmh.jpg" alt="Pins" />
+                <span>Pins</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/totes" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/tote_tmh.jpg" alt="Totes" />
+                <span>Totes</span>
+            </a>
+        </div>
+    </section>
 
-    <!--<h2>Unused</h2>
-    <a href="https://www.teepublic.com/user/sudden-sentience/kids-t-shirt">
-        <img src="" alt="Kids Shirts" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/kids-hoodies">
-        <img src="" alt="Kids Hoodies" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/kids-long-sleeve-t-shirts">
-        <img src="" alt="Long Sleeve Shirts" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/tapestries">
-        <img src="" alt="Tapestries" style="height:250px; width:250px"></a>
-    <a href="https://www.teepublic.com/user/sudden-sentience/posters-and-art">
-        <img src="" alt="Wall Art" style="height:250px; width:250px"></a><br>
-        !-->
+    <section class="card">
+        <h2>Home Goods</h2>
+        <div class="shop-grid">
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/mug" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/mugs_tmh.jpg" alt="Mugs" />
+                <span>Mugs</span>
+            </a>
+            <a class="shop-card" href="https://www.teepublic.com/user/sudden-sentience/throw-pillows" target="_blank" rel="noopener noreferrer">
+                <img src="shop_media/pillow_tmh.jpg" alt="Pillows" />
+                <span>Pillows</span>
+            </a>
+        </div>
+    </section>
 
-    <br>
-    <br>
-    <p>
-        Request Your Merch Here:<a href="https://docs.google.com/forms/d/e/1FAIpQLSdx60cRLrBmVR6oUBBMZEmDOFaxjcDldtFKgPCn1QlBZHFUDA/viewform">Google Form</a>
-    </p>
+    <section class="info-panel text-center">
+        <p>
+            Need bulk orders or custom requests? Submit the
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx60cRLrBmVR6oUBBMZEmDOFaxjcDldtFKgPCn1QlBZHFUDA/viewform" target="_blank" rel="noopener noreferrer">
+                merch request form
+            </a>.
+        </p>
+    </section>
 </main>
+<script src="./scripts/menu-component.js"></script>
 </body>
 </html>
