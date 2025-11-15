@@ -1,17 +1,10 @@
 (function(root){
   root.STATE_RESOURCE_FILES = {
-  "oregon": [
+  "oregon": [],
+  "washington": [
     {
-      "name": "healthcare-guide.pdf",
-      "path": "./state_resources/oregon/healthcare-guide.pdf"
-    },
-    {
-      "name": "provider-list.xlsx",
-      "path": "./state_resources/oregon/provider-list.xlsx"
-    },
-    {
-      "name": "support-contacts.txt",
-      "path": "./state_resources/oregon/support-contacts.txt"
+      "name": "Name and Gender Marker Change.pdf",
+      "path": "./state_resources/washington/Name and Gender Marker Change.pdf"
     }
   ]
 };
